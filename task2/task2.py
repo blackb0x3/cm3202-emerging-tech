@@ -1,5 +1,6 @@
 # imports, globals etc.
-import argparse, csv, functools, math, numpy, pickle, pprint, ptvsd, sys
+import argparse, csv, functools, math, numpy, pickle, pprint, sys
+# import ptvsd # for debugging in vs code
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
